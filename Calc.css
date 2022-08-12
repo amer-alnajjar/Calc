@@ -1,0 +1,37 @@
+section {
+  width: 260px;
+  border: 2px solid rgb(56, 236, 167);
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 40%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+}
+.textinbut {
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  background: rgb(138, 248, 206);
+}
+.btn {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 10px;
+  background: rgb(138, 248, 206);
+}
+.Clear {
+  width: 250px;
+  height: 30px;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  background: rgb(8, 112, 71);
+}
+footer {
+  background: rgb(138, 248, 206);
+  text-align: center;
+  margin-top: 180px;
+}

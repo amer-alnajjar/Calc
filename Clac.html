@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Calc.css" />
+</head>
+
+<body>
+    <section>
+        <form action="">
+            <input id="numenter" class="textinbut" name="number" disabled />
+            <table>
+                <tr>
+                    <td>
+                        <input class="btn" type="button" value="1" onclick="numenter.value+=1" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="2" onclick="numenter.value+=2" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="3" onclick="numenter.value+=3" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="+" onclick="numenter.value+=`+`" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="btn" type="button" value="4" onclick="numenter.value+=4" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="5" onclick="numenter.value+=5" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="6" onclick="numenter.value+=6" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="-" onclick="numenter.value+=`-`" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="btn" type="button" value="7" onclick="numenter.value+=7" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="8" onclick="numenter.value+=8" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="9" onclick="numenter.value+=9" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="*" onclick="numenter.value+=`*`" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="btn" type="button" value="0" onclick="numenter.value+=0" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="." onclick="numenter.value+=`.`" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="=" onclick="equal()" />
+                    </td>
+                    <td>
+                        <input class="btn" type="button" value="/" onclick="numenter.value+=`/`" />
+                    </td>
+                </tr>
+            </table>
+            <input class="Clear" type="button" value="Clear All" onclick="numenter.value=` `" />
+        </form>
+    </section>
+
+    <script src="Calc.js"></script>
+</body>
+
+</html>
